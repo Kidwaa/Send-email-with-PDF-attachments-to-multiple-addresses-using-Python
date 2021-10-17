@@ -8,7 +8,7 @@ def pcx_email(email_id):
     while n<2:
         msg = EmailMessage()
         msg['Subject'] =  'NEED INSURANCE'
-        msg['From'] = 'kidwa.lcp@gmail.com'
+        msg['From'] = #email address to be sent from
         msg['To'] = {email_id}
         msg.set_content('My car broke down. My house is on fire. Check attached documents')
 
